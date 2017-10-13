@@ -1,0 +1,29 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+    <!--没有使用自动装配-->
+    <!--<bean id="aHelloWorldDao" class="com.qigang.dao.impl.AHelloWorldDaoImpl"></bean>
+    <bean id="bHelloWorldDao" class="com.qigang.dao.impl.BHelloWorldDaoImpl"></bean>
+    <bean id="helloWorldService" class="com.qigang.service.HelloWorldService">
+        <property name="helloWorldDao" ref="bHelloWorldDao"></property>
+    </bean>-->
+
+
+    <!--根据属性名称自动装配属性实例, 会根据属性接口的变量名称来实例化属性-->
+    <!--<bean id="autoWiredByNameService" class="com.qigang.service.AutoWiredByNameService" autowire="byName"></bean>
+    <bean id="aHelloWorldDao" class="com.qigang.dao.impl.AHelloWorldDaoImpl"></bean>-->
+
+
+    <!--根据属性的类型进行自动装配属性的实例-->
+    <!--<bean id="autoWiredByTypeService" class="com.qigang.service.AutoWiredByTypeService" autowire="byType"></bean>
+    <bean id="aHelloWorldDao" class="com.qigang.dao.impl.AHelloWorldDaoImpl"></bean>-->
+
+
+    <!--使用@Componeng, @AutoWired 自动扫描组件，自动装配-->
+    <context:component-scan base-package="com.qigang"></context:component-scan>
+</beans>
