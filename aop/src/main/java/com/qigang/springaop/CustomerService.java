@@ -1,4 +1,4 @@
-package com.qigang.service;
+package com.qigang.springaop;
 
 public class CustomerService {
     private String name;

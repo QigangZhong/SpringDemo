@@ -1,4 +1,4 @@
-package com.qigang.interceptor;
+package com.qigang.springaop;
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;

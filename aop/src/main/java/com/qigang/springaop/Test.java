@@ -1,14 +1,13 @@
-package com.qigang;
+package com.qigang.springaop;
 
-import com.qigang.service.CustomerService;
+import com.qigang.springaop.CustomerService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Hello world!
- *
+ * Spring提供的AOP,static方法和final方法都无法拦截,原因是此类方法无法生成代理类
  */
-public class App 
+public class Test
 {
     public static void main( String[] args )
     {

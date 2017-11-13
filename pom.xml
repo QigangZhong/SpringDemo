@@ -22,16 +22,21 @@
 
             <!-- spring核心库  start -->
             <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>4.3.11.RELEASE</version>
-        </dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>4.3.11.RELEASE</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-context</artifactId>
                 <version>4.3.11.RELEASE</version>
             </dependency>
             <!-- spring核心库  end -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aspects</artifactId>
+                <version>4.3.11.RELEASE</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
