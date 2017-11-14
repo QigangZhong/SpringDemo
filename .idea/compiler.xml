@@ -19,6 +19,7 @@
     <bytecodeTargetLevel>
       <module name="aop" target="1.8" />
       <module name="helloworld" target="1.8" />
+      <module name="hibernate" target="1.8" />
       <module name="SpringDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

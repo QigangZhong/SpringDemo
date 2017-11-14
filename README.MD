@@ -1,2 +1,2 @@
 demo:  
-http://www.yiibai.com/spring/spring-aop-examples-advice.html
+http://www.yiibai.com/spring.beans/spring.beans-aop-examples-advice.html

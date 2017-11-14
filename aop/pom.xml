@@ -57,7 +57,7 @@
                         &lt;!&ndash;
                           <aspectLibrary>
                              <groupId>org.springframework</groupId>
-                             <artifactId>spring-aspects</artifactId>
+                             <artifactId>spring.beans-aspects</artifactId>
                          </aspectLibrary>
                         &ndash;&gt;
                     </aspectLibraries>
